@@ -3,8 +3,8 @@
 An Express server starter kit written in TypeScript featuring Webpack, AngularJs, Angular Material, BEM, Sass, Mocha tests. Inspired by [NG6-starter](https://github.com/angularclass/NG6-starter)
 
 ## Installation
-    git clone https://github.com/jkokh/expressjs-webpackdev
-    cd expressjs-webpackdev
+    $git clone https://github.com/jkokh/expressjs-webpackdev
+    $cd expressjs-webpackdev
     $npm install
     
 To start dev server
