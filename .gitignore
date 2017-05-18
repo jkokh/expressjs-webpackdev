@@ -1,0 +1,15 @@
+node_modules/
+
+frontend/**/*.js
+frontend/**/*.js.map
+
+backend/**/*.js
+backend/**/*.js.map
+
+dist/
+
+backend/storage/
+
+test-results.xml
+
+npm-debug.log

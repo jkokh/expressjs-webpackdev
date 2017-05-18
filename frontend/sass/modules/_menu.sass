@@ -1,0 +1,33 @@
+@import "../mixins"
+
+.menu
+  background-color: #2a2a2a
+  display: flex
+  flex-direction: row
+
+  +element('item')
+
+    +modifier('left')
+      flex-grow: 1
+
+.menu-list
+  list-style-type: none
+  padding: 0
+  margin: 0
+  white-space: nowrap
+
+  +element('item')
+    display: inline-block
+    vertical-align: middle
+
+
+  +element('link')
+    display: block
+    color: white
+    line-height: 4rem
+    padding: 0 1rem
+    text-decoration: none
+    transition: all 0.4s ease
+    &:hover
+      background-color: rgba(255, 255, 255, 0.2)
+
